@@ -121,7 +121,9 @@ export default component$(() => {
         <div class="w-full snap-x snap-mandatory flex gap-10 overflow-scroll">
           {oblasti.map((oblast) => {
             return (
-              <div class="relative flex min-h-[384px] md:min-w-[640px] min-w-[90%] ">
+              <div 
+              key={oblast.title}
+              class="relative flex min-h-[384px] md:min-w-[640px] min-w-[90%] ">
                 <div class="cursor-pointer flex flex-col z-50 text-third p-4 gap-4 h-full rounded-md">
                   <h1 class="font-extrabold  text-2xl">{oblast.title}</h1>
                   {oblast.texts.map((text) => {

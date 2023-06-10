@@ -23,7 +23,9 @@ export default component$(() => {
           <div class="md:w-1/2 flex flex-col items-start justify-center gap-4 ">
             {contactInfo.map((contact) => {
               return (
-                <div class="flex flex-row items-center gap-4 text-xl">
+                <div 
+                key={contact.text}
+                class="flex flex-row items-center gap-4 text-xl">
                   <i class={contact.icon} />
                   <p>{contact.text}</p>
                 </div>

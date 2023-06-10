@@ -32,7 +32,9 @@ export default component$(() => {
           <div class="flex flex-row items-center gap-4 z-50 p-4">
             {socialMedia.map((social) => {
               return (
-                <a href={social.link}>
+                <a 
+                key={social.link}
+                href={social.link}>
                   <div class="p-1 border border-fourth hover:text-third hover:border-third transition duration-300 ">
                     <i
                       class={`transition duration-300 w-6 h-6  text-center ${social.icon}`}
