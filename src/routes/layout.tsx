@@ -27,7 +27,7 @@ export default component$(() => {
     <>
       <div class="min-h-screen flex flex-col">
       <Header />
-      <main class="flex-grow overflow-auto bg-third">
+      <main class="flex-grow overflow-auto bg-secondary">
         <Slot />
       </main>
       <Footer />

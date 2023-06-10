@@ -14,7 +14,7 @@ const contactInfo = [
 export default component$(() => {
   return (
     <>
-      <div class="bg-third px-4 md:px-20 flex  flex-col py-4 gap-4 ">
+      <div class=" px-4 md:px-20 flex  flex-col py-4 gap-4 ">
         <h1 class="text-2xl font-bold uppercase flex justify-center">
           Kontakt informacije
         </h1>

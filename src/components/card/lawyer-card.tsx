@@ -20,7 +20,7 @@ export default component$(() => {
   return (
     <>
       <div class="flex justify-center">
-        <div class="flex flex-col relative rounded-md w-[640px] h-48 m-10">
+        <div class="flex flex-col relative rounded-md w-[640px] h-48 shadow-md hover:scale-105 hover:shadow-lg transition duration-300 m-10">
           <div class="flex flex-col z-50 p-4">
             <div class="flex flex-row items-center gap-1 relative max-w-min">
               <h1 class="text-xl font-light">Anis</h1>

@@ -113,7 +113,7 @@ const oblasti = [
 export default component$(() => {
   return (
     <>
-      <div class="bg-third p-4 flex flex-col gap-4">
+      <div class=" p-4 flex flex-col gap-4">
         <h1 class="text-2xl flex justify-center uppercase font-extrabold">
           Oblasti Rada
         </h1>
@@ -124,7 +124,7 @@ export default component$(() => {
               <div 
               key={oblast.title}
               class="relative flex min-h-[384px] md:min-w-[640px] min-w-[90%] ">
-                <div class="cursor-pointer flex flex-col z-50 text-third p-4 gap-4 h-full rounded-md">
+                <div class="cursor-pointer flex flex-col z-50 text-fourth p-4 gap-4 h-full rounded-md">
                   <h1 class="font-extrabold  text-2xl">{oblast.title}</h1>
                   {oblast.texts.map((text) => {
                     return <p class="text-fourth">{text.text}</p>;
@@ -136,9 +136,9 @@ export default component$(() => {
                   class="absolute left-0 top-0 w-full h-full object-cover snap-center rounded-md"
                   width={800}
                   height={600}
-                  alt="A lovely bath"
+                  alt={oblast.title}
                 />
-                <div class="absolute left-0 top-0 z-40 opacity-70 bg-black w-full h-full rounded-md" />
+                <div class="absolute left-0 top-0 z-40 opacity-50 bg-black w-full h-full rounded-md" />
               </div>
             );
           })}
