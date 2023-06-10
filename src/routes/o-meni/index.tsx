@@ -13,8 +13,7 @@ export default component$(() => {
             profesionalnu karijeru kao zaposlenik u advokatskoj kancelariji. Po
             sticanju radnog iskustva u advokatakoj kancelariji, položio sam
             pravosudni i advokatski ispit, te osnovao samostalnu advokatsku
-            kancelariju. I onda ovdje nek ide ovo već sugi niz godina uspješno
-            se bavim advokaturom
+            kancelariju.
           </div>
           <Image
             class="w-full md:w-1/2 h-96 object-contain p-4"
