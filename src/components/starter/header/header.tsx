@@ -13,7 +13,7 @@ export default component$(() => {
   const isMobileDropdownOpen = useSignal(false);
   return (
     <header
-      class="relative w-full bg-primary text-fourth border-b border-third px-10 py-4
+      class="relative w-full bg-secondary text-fourth border-b border-third px-4 md:px-10 py-4
     flex justify-between z-[60]
     "
     >
