@@ -8,7 +8,7 @@ export default component$(() => {
       <div class="flex flex-col gap-4 ">
         <h1 class=" font-extrabold text-3xl flex justify-center p-4">O Meni</h1>
         <div class="p-4 gap-4 flex-col md:flex md:flex-row items-center justify-center h-full">
-          <div class="text-base md:text-3xl  gap-4 w-full md:w-1/2 [&>*]:first-letter:text-3xl [&>*]:first-letter:font-extrabold">
+          <div class="text-base md:text-3xl  gap-4 w-full md:w-2/3 [&>*]:first-letter:text-3xl [&>*]:first-letter:font-extrabold">
             Nakon diplomiranja na{" "}
             <span class="underline">Pravnom fakultetu u Zenici</span> započeo
             sam svoju profesionalnu karijeru kao zaposlenik u advokatskoj
@@ -18,7 +18,7 @@ export default component$(() => {
             <span class="underline">samostalnu advokatsku kancelariju</span>.
           </div>
           <Image
-            class="w-full md:w-1/2 h-96 object-contain p-4"
+            class="w-full md:w-1/3 h-96 object-contain p-4"
             src="/kancelarija.jpg"
             alt="kancelarija-advokata-anisa-malicbegovica"
             width={350}
