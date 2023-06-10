@@ -11,11 +11,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Advokat Malicbegovic',
+  title: 'Advokat Malicbegovic - O Meni',
   meta: [
     {
       name: 'description',
-      content: 'Advokat Anis Malicbegovic Zavidovici',
+      content: 'Advokat Anis Malicbegovic Zavidovici O meni',
     },
   ],
 };
