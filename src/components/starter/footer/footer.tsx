@@ -1,13 +1,12 @@
 import { component$ } from '@builder.io/qwik';
-import { useServerTimeLoader } from '~/routes/layout';
 
 
 export default component$(() => {
   
 
   return (
-    <footer>
-     
+    <footer class=" w-full h-14 px-10 border-t border-third py-4">
+     <p>© Advokat Maličbegović Anis</p>
     </footer>
   );
 });
