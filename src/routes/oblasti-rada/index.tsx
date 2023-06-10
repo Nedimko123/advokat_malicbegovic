@@ -113,12 +113,12 @@ const oblasti = [
 export default component$(() => {
   return (
     <>
-      <div class="p-4 flex flex-col gap-4">
+      <div class="bg-third p-4 flex flex-col gap-4">
         <h1 class="text-2xl flex justify-center uppercase font-extrabold">
           Oblasti Rada
         </h1>
 
-        <div class="w-full snap-x snap-mandatory flex gap-10 overflow-scroll">
+        <div class="w-full snap-x snap-mandatory flex gap-10 overflow-scroll ">
           {oblasti.map((oblast) => {
             return (
               <div 

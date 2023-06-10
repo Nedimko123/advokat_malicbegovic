@@ -5,8 +5,10 @@ import LawyerCard from "~/components/card/lawyer-card";
 export default component$(() => {
   return (
     <>
-      <LawyerCard />
-      <div class="text-lg bg-secondary px-4 py-10 grid grid-cols-2 gap-10 [&>*]:first-letter:text-4xl [&>*]:first-letter:font-extrabold">
+      <div class="w-full bg-third">
+        <LawyerCard />
+      </div>
+      <div class="text-xs md:text-lg bg-secondary px-4 py-10 grid grid-cols-2 gap-10 [&>*]:first-letter:text-4xl [&>*]:first-letter:font-extrabold">
         <p>
           Advokat Maličbegović je renomirani pravni stručnjak s bogatim
           iskustvom u različitim granama prava. Sa strašću za pravdu i predanim
@@ -25,19 +27,19 @@ export default component$(() => {
           oblastima, uključujući građansko pravo, krivično pravo, porodično
           pravo, radno pravo i mnoge druge. Njegova stručnost obuhvata
           zastupanje klijenata pred sudom, savetovanje o pravnim pitanjima,
-          pripremu pravnih dokumenata i alternativno rešavanje sporova.
+          pripremu pravnih dokumenata i alternativno rješavanje sporova.
         </p>
 
         <p>
-          Naša filozofija je pružiti personalizovano pravno rešenje za svakog
-          klijenta. Razumemo da svaki slučaj ima svoje jedinstvene okolnosti i
-          zahteve. Advokat Maličbegović pažljivo sluša Vaše brige i ciljeve,
+          Naša filozofija je pružiti personalizovano pravno rješenje za svakog
+          klijenta. Razumijemo da svaki slučaj ima svoje jedinstvene okolnosti i
+          zahtijeve. Advokat Maličbegović pažljivo sluša Vaše brige i ciljeve,
           kako bi pružio pravno zastupanje koje je prilagođeno Vašim potrebama.
         </p>
 
         <p>
           Klijenti nam dolaze sa različitim pravnim problemima, i mi se
-          posvećujemo pronalaženju najboljeg pravnog rešenja za svaki slučaj.
+          posvećujemo pronalaženju najboljeg pravnog rješenja za svaki slučaj.
           Bez obzira da li se suočavate sa porodičnim sporom, imate pitanja u
           vezi sa poslovnim ugovorom ili vam je potrebna odbrana u krivičnom
           postupku, Advokat Maličbegović će se boriti za Vaša prava i interese.

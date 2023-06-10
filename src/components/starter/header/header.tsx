@@ -14,7 +14,7 @@ export default component$(() => {
   return (
     <header
       class="relative w-full bg-primary text-fourth border-b border-third px-10 py-4
-    flex justify-between
+    flex justify-between z-[60]
     "
     >
       <h1 class="text-xl">
