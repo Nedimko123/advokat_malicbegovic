@@ -127,7 +127,7 @@ export default component$(() => {
                 <div class="cursor-pointer flex flex-col z-50 text-third p-4 gap-4 h-full rounded-md">
                   <h1 class="font-extrabold  text-2xl">{oblast.title}</h1>
                   {oblast.texts.map((text) => {
-                    return <p class="italic text-slate-100">{text.text}</p>;
+                    return <p class="text-fourth">{text.text}</p>;
                   })}
                 </div>
                 <Image
