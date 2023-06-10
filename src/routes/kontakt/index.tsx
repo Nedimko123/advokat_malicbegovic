@@ -39,7 +39,7 @@ export default component$(() => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div class="flex flex-col gap-4 text-xl">
+        <div class="flex flex-col gap-4 md:text-xl">
           <h1 class="text-2xl font-bold uppercase flex justify-center">
             Radno vrijeme
           </h1>

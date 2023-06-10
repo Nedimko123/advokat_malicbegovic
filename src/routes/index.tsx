@@ -5,7 +5,7 @@ import LawyerCard from "~/components/card/lawyer-card";
 export default component$(() => {
   return (
     <>
-      <div class="w-full bg-third">
+      <div class="w-full bg-fourth">
         <LawyerCard />
       </div>
       <div class="text-xs md:text-lg bg-secondary px-4 py-10 grid grid-cols-2 gap-10 [&>*]:first-letter:text-4xl [&>*]:first-letter:font-extrabold">
