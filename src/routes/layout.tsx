@@ -18,7 +18,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export const useServerTimeLoader = routeLoader$(() => {
   return {
-    date: new Date().getFullYear()
+    date: new Date().getFullYear(),
   };
 });
 
@@ -26,11 +26,11 @@ export default component$(() => {
   return (
     <>
       <div class="min-h-screen flex flex-col">
-      <Header />
-      <main class="flex-grow overflow-auto bg-primary">
-        <Slot />
-      </main>
-      <Footer />
+        <Header />
+        <main class="flex-grow overflow-auto bg-primary">
+          <Slot />
+        </main>
+        <Footer />
       </div>
     </>
   );
